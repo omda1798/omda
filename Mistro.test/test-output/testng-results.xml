@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-17T15:45:07 EET" name="Suite" finished-at="2022-07-17T15:45:16 EET" duration-ms="9537">
+    <groups>
+    </groups>
+    <test started-at="2022-07-17T15:45:07 EET" name="Test" finished-at="2022-07-17T15:45:16 EET" duration-ms="9537">
+      <class name="tests.login">
+        <test-method is-config="true" signature="OpenURL()[pri:0, instance:tests.login@506ae4d4]" started-at="2022-07-17T15:45:12 EET" name="OpenURL" finished-at="2022-07-17T15:45:15 EET" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenURL -->
+        <test-method signature="FindElement()[pri:0, instance:tests.login@506ae4d4]" started-at="2022-07-17T15:45:15 EET" name="FindElement" finished-at="2022-07-17T15:45:15 EET" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindElement -->
+      </class> <!-- tests.login -->
+      <class name="tests.Register">
+        <test-method is-config="true" signature="OpenURL()[pri:0, instance:tests.Register@771a660]" started-at="2022-07-17T15:45:07 EET" name="OpenURL" finished-at="2022-07-17T15:45:12 EET" duration-ms="4662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenURL -->
+        <test-method signature="Register()[pri:0, instance:tests.Register@771a660]" started-at="2022-07-17T15:45:15 EET" name="Register" finished-at="2022-07-17T15:45:16 EET" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+      </class> <!-- tests.Register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

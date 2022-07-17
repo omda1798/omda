@@ -1,0 +1,21 @@
+package Mistro.Mistro.test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class login {
+WebDriver driver;
+
+@BeforeTest
+public void OpenURL() 
+{
+	WebDriverManager.chromedriver().setup();
+	 driver = new ChromeDriver();
+	driver.get("https://posfront.gtwit.net/#/auth/signup");
+	driver.manage().window().maximize();
+}
+	 	
+}
